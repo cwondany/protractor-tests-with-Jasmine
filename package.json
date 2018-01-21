@@ -2,13 +2,17 @@
   "name": "setup",
   "version": "1.0.0",
   "description": "",
-  "main": "library.js",
+  "main": "home.spec.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jasmine"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "selenium-webdriver": "^3.6.0"
+  },
+  "devDependencies": {
+    "jasmine": "^2.9.0",
+    "protractor-video-reporter": "^0.3.0"
   }
 }
